@@ -5,9 +5,7 @@ This is a sample application which leverages the [AT&T M2X Time-Series Datastore
 #### View Live Demo
 http://panoply.cloud/heart-rate-tracker/
 
-<div style="text-align:center">
-    <img src="images/heart-rate-tracker.gif">
-</div>
+![Heart Rate Tracker](images/heart-rate-tracker.gif)
 
 # Prerequisites
 
