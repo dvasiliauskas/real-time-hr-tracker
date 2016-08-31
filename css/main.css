@@ -1,0 +1,40 @@
+body {
+  font-family: 'Mukta Vaani', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+#loading {
+  position: absolute;
+  right: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+#main-container {
+  visibility: hidden;
+}
+
+#current-heart-rate {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#heart-rate {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#built-with {
+  padding-top: 15px;
+}
+
+#built-with img {
+  display: inline;
+  padding-top: 20px;
+  padding-right: 30px;
+}

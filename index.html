@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <title>Heart Rate Tracker</title>
+
+  <script type="text/javascript" src="https://js.pusher.com/3.2/pusher.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta+Vaani">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<html>
+  <body>
+    <div id="loading">
+      <p>Loading...</p>
+      <img src="images/loading.gif">
+    </div>
+
+    <div id="main-container">
+      <img src="images/heart.png">
+      <h1>Heart Rate Tracker</h1>
+
+      <div id="current-heart-rate">
+        <p>Current Heart Rate:</p><code id="heart-rate"></code>
+      </div>
+
+      <div id="chart-container" style="height: 300px; width:100%;">
+      </div>
+
+      <div id="built-with">
+        <p>Built with:</p>
+        <a href="https://m2x.att.com" title="AT&amp;T M2X"><img src="images/m2x.png"></a>
+        <a href="https://pusher.com" title="Pusher"><img src="images/pusher.png"></a>
+        <a href="https://canvasjs.com" title="CanvasJS"><img src="images/canvasjs.png"></a>
+      </div>
+    </div>
+  </body>
+</html>
