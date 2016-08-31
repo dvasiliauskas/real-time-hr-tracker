@@ -1,6 +1,6 @@
 # Real-Time Heart Rate Tracker <br/> built with AT&T M2X, Pusher & Canvas.js
 
-This is a sample application which leverages the [AT&T M2X Time-Series Datastore](https://m2x.att.com) to gather and store heart rate data, and the [M2X Pusher Integration](https://m2x.att.com/developer/documentation/v2/integrations#pusher-sink-integration) to stream data in real-time through a [Pusher](https://pusher.com/) WebSocket Channel to a web application that dispalys the current heart rate & a dynamic chart from [Canvas.js](http://canvasjs.com/html5-javascript-dynamic-chart/).
+This is a sample application which leverages the [AT&T M2X Time-Series Datastore](https://m2x.att.com) to gather and store heart rate data, and the [M2X Pusher Integration](https://m2x.att.com/developer/documentation/integrations#pusher-sink-integration) to stream data in real-time through a [Pusher](https://pusher.com/) WebSocket Channel to a web application that dispalys the current heart rate & a dynamic chart from [Canvas.js](http://canvasjs.com/html5-javascript-dynamic-chart/).
 
 #### View Live Demo
 http://panoply.cloud/heart-rate-tracker/
