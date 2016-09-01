@@ -58,5 +58,5 @@ Create an Integration by making an HTTP request to the [Create Integration](http
 # Install & Run
 
 1. Clone this repository
-2. Add your Pusher App ID & Chanel Name to [js/main.js](js/main.js). Note: the channel name is the `channel_prefix` provided when [configuring the M2X Pusher integration](#configure-m2x-pusher-integration) plus the name of the M2X Device Stream. __Example:__ [channel prefix `m2x-`] + [stream name `heart-rate`] = [channel name `m2x-heart-rate`]
+2. Add your Pusher App ID & Channel Name to [js/main.js](js/main.js). Note: the channel name is the `channel_prefix` provided when [configuring the M2X Pusher integration](#configure-m2x-pusher-integration) plus the name of the M2X Device Stream. __Example:__ [channel prefix `m2x-`] + [stream name `heart-rate`] = [channel name `m2x-heart-rate`]
 3. Open [index.html](index.html) in your browser to view the data streaming in real-time
